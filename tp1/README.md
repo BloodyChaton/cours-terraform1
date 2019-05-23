@@ -1,0 +1,1 @@
+The goal of this exercice was to create a template for 1 VM on Azure using terraform
