@@ -1,0 +1,1 @@
+Tp4: use already created Resource group, VNet and VsubNet (generated through Azure Portal) to create 3 new VMs
