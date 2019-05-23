@@ -1,0 +1,1 @@
+The idea was to create 5 different Azure VM available via IPs, on 2 different networks, using variables to define the main ids.

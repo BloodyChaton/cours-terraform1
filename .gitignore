@@ -1,3 +1,4 @@
 .git
-tp1/.terraform/*
-tp2/.terraform/*
+tp1/.terraform
+tp2/.terraform
+tp3/.terraform
