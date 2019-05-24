@@ -2,3 +2,10 @@
 tp1/.terraform
 tp2/.terraform
 tp3/.terraform
+tp4/.terraform
+tp5/.terraform
+tp1/.terraform/*
+tp2/.terraform/*
+tp3/.terraform/*
+tp4/.terraform/*
+tp5/.terraform/*
