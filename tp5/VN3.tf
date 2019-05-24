@@ -35,7 +35,7 @@ resource "azurerm_network_security_group" "myterraformnsg3" {
     resource_group_name = "${azurerm_resource_group.rg3.name}"
     security_rule {
         name                       = "HTTP-31"
-        priority                   = 101
+        priority                   = 1100
         direction                  = "Outbound"
         access                     = "Allow"
         protocol                   = "Tcp"
@@ -46,7 +46,7 @@ resource "azurerm_network_security_group" "myterraformnsg3" {
     }
         security_rule {
         name                       = "HTTP-32"
-        priority                   = 102
+        priority                   = 1120
         direction                  = "Inbound"
         access                     = "Allow"
         protocol                   = "Tcp"
@@ -57,7 +57,7 @@ resource "azurerm_network_security_group" "myterraformnsg3" {
     }
         security_rule {
         name                       = "HTTP-33"
-        priority                   = 103
+        priority                   = 1130
         direction                  = "Outbound"
         access                     = "Allow"
         protocol                   = "Tcp"

@@ -37,7 +37,7 @@ resource "azurerm_network_security_group" "myterraformnsg2" {
 
         security_rule {
         name                       = "HTTP-22"
-        priority                   = 152
+        priority                   = 1520
         direction                  = "Inbound"
         access                     = "Allow"
         protocol                   = "Tcp"
@@ -48,7 +48,7 @@ resource "azurerm_network_security_group" "myterraformnsg2" {
     }
         security_rule {
         name                       = "HTTP-23"
-        priority                   = 153
+        priority                   = 1530
         direction                  = "Outbound"
         access                     = "Allow"
         protocol                   = "Tcp"
@@ -59,7 +59,7 @@ resource "azurerm_network_security_group" "myterraformnsg2" {
     }
             security_rule {
         name                       = "HTTP-24"
-        priority                   = 154
+        priority                   = 1540
         direction                  = "Inbound"
         access                     = "Allow"
         protocol                   = "Tcp"
@@ -70,7 +70,7 @@ resource "azurerm_network_security_group" "myterraformnsg2" {
     }
             security_rule {
         name                       = "HTTP-25"
-        priority                   = 155
+        priority                   = 1550
         direction                  = "Outbound"
         access                     = "Allow"
         protocol                   = "Tcp"
